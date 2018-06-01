@@ -10,6 +10,6 @@ All code in the `busy` folder is under the original license from Busy (see `BUSY
 
 ## Usage
 
-`const steemMarkdown = require('steem-markdown')`
+`const steemMarkdown = require('steem-markdown-only')`
 
 `const parsedMarkdown = steemMarkdown(markdown)`

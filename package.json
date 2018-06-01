@@ -1,31 +1,26 @@
 {
-  "_from": "steem-markdown",
-  "_id": "steem-markdown@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-43OPDzmenwPgfn6h6EWYQocDRw0m25KMS4/AahLX5ONDJQeTyB4Wopmv7HEERWVzY6Dgrza5G7uAI6KPkaOkww==",
-  "_location": "/steem-markdown",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "steem-markdown",
-    "name": "steem-markdown",
-    "escapedName": "steem-markdown",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "steem-markdown-only",
+  "version": "0.0.3",
+  "private": false,
+  "scripts": {
+	"build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/steem-markdown/-/steem-markdown-1.0.0.tgz",
-  "_shasum": "76622996934a4e9f1d9603aa51bd0d8f193457fe",
-  "_spec": "steem-markdown",
-  "_where": "/var/www/html/steemit/bot/steem-ui",
-  "author": "",
-  "bundleDependencies": false,
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.8.0"
+  },
+  "main": "index.js",
   "dependencies": {
+    "antd": "^3.5.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "~1.0.0",
     "classnames": "^2.2.5",
     "embedjs": "0.0.10",
     "filesize": "^3.6.1",
@@ -35,16 +30,8 @@
     "react-dom": "^16.3.1",
     "remarkable": "^1.7.1",
     "sanitize-html": "^1.18.2",
-    "xmldom": "^0.1.27"
-  },
-  "deprecated": false,
-  "description": "This is just a repackaging of the markdown parsing functionality for Busy.org. The repo can be found [here](https://github.com/busyorg/busy), which is based off of the code for [Steem Condenser](https://github.com/steemit/condenser).",
-  "license": "ISC",
-  "main": "index.js",
-  "name": "steem-markdown",
-  "scripts": {
-	"build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.0"
+    "xmldom": "^0.1.27",
+    "webpack": "^4.10.2"
+  }
 }
+
