@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "private": false,
   "scripts": {
-	"build": "webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -20,7 +20,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "body-parser": "~1.0.0",
+    "body-parser": "^1.18.3",
     "classnames": "^2.2.5",
     "embedjs": "0.0.10",
     "filesize": "^3.6.1",
@@ -30,8 +30,7 @@
     "react-dom": "^16.3.1",
     "remarkable": "^1.7.1",
     "sanitize-html": "^1.18.2",
-    "xmldom": "^0.1.27",
-    "webpack": "^4.10.2"
+    "webpack": "^4.10.2",
+    "xmldom": "^0.1.27"
   }
 }
-
